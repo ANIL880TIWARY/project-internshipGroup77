@@ -10,7 +10,7 @@ router.post("/colleges", collageController.Collage)
 
 router.post('/interns', internController.Intern)
 
-router.get('/collegeDetail', internController.getDetail)
+router.get('/:name', internController.getDetail)
 
 
 

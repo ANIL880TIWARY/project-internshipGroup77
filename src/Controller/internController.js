@@ -25,7 +25,7 @@ const Intern = async function (req, res) {
 
 const getDetail = async function (req, res) {
     try {
-            let coll_name = req.query.collegeName
+            let coll_name = req.params.name
             let data = await collegeModel.findOne({ name: coll_name })
             const C_id = data._id
             if (!data) {

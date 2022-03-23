@@ -11,8 +11,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const mongoose = require('mongoose')
 
-mongoose.connect("mongodb+srv://arnabbiswas_14:arnabbiswas@cluster0.b95gv.mongodb.net/group-34-Database?retryWrites=true&w=majority", {useNewUrlParser: true , useUnifiedTopology: true,useCreateIndex: true,useFindAndModify: false})
-    .then(() => console.log('mongodb running on 27017'))
+mongoose.connect("mongodb+srv://anil88:ghkHXqTEPEofBujh@cluster0.syc39.mongodb.net/group-77-database?retryWrites=true&w=majority", {useNewUrlParser: true , useUnifiedTopology: true,useCreateIndex: true,useFindAndModify: false})
+    .then(() => console.log('ANIL TIWARY(DATABASE)'))
     .catch(err => console.log(err))
 
 app.use('/', route);
